@@ -1,0 +1,8 @@
+<?php
+define('PITCREW_SESSION_CONTEXT', 'customer');
+
+require_once __DIR__ . '/layout.php';
+render_header('About', 'about');
+?>
+<main class="page-wrap"><section class="page-hero compact"><div class="container"><span class="crumb">Home / About</span><h1>Vehicle servicing with pit-stop organisation.</h1><p>PitCrew Connect was designed to make vehicle service booking faster, clearer, and easier for everyday drivers.</p></div></section><section class="section container split"><div class="card"><span class="eyebrow">Our story</span><h2>Inspired by speed, built for daily drivers.</h2><p>Motorsport pit stops work because every task is organised, timed, and clearly assigned. PitCrew Connect applies that idea to everyday vehicle servicing by helping customers submit requests, choose a package, and track progress online.</p></div><div class="card"><span class="eyebrow">Our mission</span><h2>Simple, transparent service requests.</h2><p>We help customers understand service options before booking and give staff a structured way to review, assign, and update each service request.</p></div></section><section class="section container"><div class="feature-grid three"><article class="feature-card"><span>📍</span><h3>Service centre choice</h3><p>Customers can choose a preferred PitCrew centre based on location and service needs.</p></article><article class="feature-card"><span>🚙</span><h3>Mobile service option</h3><p>For selected services, customers can request support at their location.</p></article><article class="feature-card"><span>📲</span><h3>Progress tracking</h3><p>Booking status updates make it easier to know what is happening next.</p></article></div></section></main>
+<?php render_footer(); ?>
