@@ -7,3 +7,5 @@ config.php
 *.pem
 node_modules/
 vendor/
+*.textClipping
+.DS_Store
